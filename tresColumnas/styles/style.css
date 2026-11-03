@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+}
+header{
+    background-color: white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 1000;
+}
+main {
+    display: flex;
+}
+.lado{
+    width: 25vw;
+    background-color: rgb(204, 213, 213);
+}
+.p1{
+    margin: 8px 8px;
+}
+.centro {
+    width: 50vw;
+    height: 80vh;
+    background-color: rgb(173, 173, 173);
+}
+.Titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;   
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 900;
+}
+.parrafo{
+    margin: 5px 5px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}

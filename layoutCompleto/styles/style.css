@@ -1,0 +1,112 @@
+body{
+    width: 1000px;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #000;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    background-color: salmon;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.Encabezado {
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.Encabezado2{
+    font-size: 15px;
+}
+menu{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(36, 142, 144);
+    color: aliceblue;
+}
+.caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.caja2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 55px;
+    justify-content: space-between;
+    width: 150px;
+}
+.objeto{
+    margin-right: 40px;
+}
+.o1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.contenido{
+    display: flex;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30vw;
+    background-color: lightgray;
+    justify-content: space-around;
+}
+.Titulo{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.articulo{
+    width: 70vh;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.img2 {
+    width: 520px;
+    height: 250px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.genericas{
+    width: 400px;
+    height: 200px;
+    margin: 20px  bauto;
+}
+.texto{
+    padding: 10px;
+}
+.texto1{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+footer {
+    display: flex;
+    width: 1000px;
+    height: 8vh;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
